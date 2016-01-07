@@ -92,3 +92,7 @@ footer.page-footer {
    .input-field .prefix.active {
      color: #FFF;
    }
+
+.product {
+  min-height: 270px;
+}
