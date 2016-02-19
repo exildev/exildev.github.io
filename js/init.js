@@ -3,7 +3,7 @@
 
     $('.button-collapse').sideNav();
     $('.parallax').parallax();
-    $.getJSON( "https://api.github.com/users/exilesas/repos", function(data){
+    $.getJSON( "https://api.github.com/users/exildev/repos", function(data){
     	var model = $("#product-model");
     	$.each(data, function(index, value){
     		console.log(index, value);
